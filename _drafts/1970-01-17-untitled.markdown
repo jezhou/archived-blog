@@ -1,0 +1,41 @@
+---
+layout: post
+title: "(Untitled)"
+---
+I was stuck on this for a long time but I thought I would share my knowledge in case it would help other people trying to fix their shift/reduce conflicts.
+
+Explanation (skip if you want)
+
+If you have a shift/reduce conflict, it means your parser doesn't know whether to condense the tokens you've read into an AST node, or whether to read more tokens. Condensing tokens is called reduction, and choosing to read more tokens is called shifting. The classic case for this is the "dangling else" problem.
+```
+if (this) {     ]                	       ]
+	foo();	    | Do I reduce this first...	|
+} 		      ]		                      | ... or this later?
+else {						              |
+	bar();						            |
+}                                           |
+							                ]
+```
+Usually, a conflict occurs if both a shift and reduce can create different parse trees (or different interpretations of the same program). When in doubt, Bison shifts unless you explicitly say to reduce. This is usually what you want, but Bison will still pop up a conflict if there's a possible reduction (even if it shifts the token anyway).
+
+So to tell Bison to shut up, you need to use precedence to essentially say "I always want this particular rule/operator to go first, I don't care if there's a possible reduction."
+
+Precedence
+
+To apply precedence to operators, in your Bison declarations section (the part with all the %token %type stuff), you need to use %left, %right, or %nonassoc to both declare your tokens and apply precedence to them.
+
+So if you wanted to apply precedence to T_Plus, you would need to delete the %token T_Plus and replace it with %left T_Plus (since addition is left associative). If you want two operators to have the same precedence, put them in the same line (%left T_Plus T_Dash). Once you do this with all the operators you want to apply precedence, order them from lowest precedence at the top to the highest precedence at the bottom.
+
+If you have a rule that doesn't have a token for you to target but would still like to apply precedence to it, use a custom token and the %prec directive within your rules.
+
+Using the example below, if I wanted my second rule to have a higher precedence than my first rule, I can make a custom token for the first rule, combine this with the %prec directive, and finally mark the second rule with higher precedence. It looks like this
+```
+%nonassoc THEN    // Name is arbitrarily chosen, use anything you want
+%nonassoc T_Else  // "T_Else" is below "THEN", so it has a higher precedence
+
+%%
+
+stm: T_If "(" exp ")" %prec THEN stm { ... }
+   | T_If "(" exp ")" stm T_Else stm { ... }
+```
+At this point, Bison should stop complaining about the dangling else.
