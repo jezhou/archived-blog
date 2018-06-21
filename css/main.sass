@@ -1,27 +1,32 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700|Source+Serif+Pro:400,600')
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,400,700|Lato:400,600')
 
-$title-font: 'Source Serif Pro'
-$text-font: 'Source Sans Pro'
-$blog-color: #626262
+$title-font: 'Lato'
+$text-font: 'Source Serif Pro'
+$blog-color: #ff5252
+$secondary-color: #319999
+$tertiary-color: #B8EE4D
+$text-color: #333333
+$secondary-text-color: #afafaf
 
 h1, h2, h3, h4, h5, h6
   color: $blog-color
   font-family: $title-font, serif
 
 p, li
-  color: $blog-color
+  color: $text-color
   font-family: $text-font, sans-serif
 
 blockquote
   font-style: italic
   line-height: 1.5
 
-pre
-  background-color: aliceblue
-  padding: 20px
+hr
+  border-width: 0.5px
+  border-color: $secondary-color
+  margin: 50px
 
 .back-button
 
@@ -32,12 +37,16 @@ pre
     font-weight: 200
     font-size: 1.5em
 
+.home
+  width: 50%
+  margin: auto
+
 .banner
   color: $blog-color
   line-height: 0.7
 
   .home-title
-    font-size: 2em
+    font-size: 3em
     display: inline-block
 
   .home-secondary-title
@@ -50,14 +59,17 @@ pre
   list-style-type: none
   line-height: 2
 
-  a
-    font-family: $text-font
-    text-decoration: none
+a
+  font-family: $title-font
+  text-decoration: none
+  color: $secondary-color
 
 .post
-  width: 55%
+  width: 50%
+  margin: auto
   color: black
   font-size: 1.1em
+
 
   h1, h2, h3, h4, h5, h6
     line-height: 1.2
@@ -69,7 +81,40 @@ pre
     width: 100%
     margin: auto
 
+  a
+    font-family: $text-font
+
+
+td
+  padding-top: 7px
+  padding-bottom: 7px
+  font-family: $title-font
+  margin: 0px
+
+.post-home-date
+  padding-right: 60px
+  color: $text-color
+
+.post-home-title
+  color: $secondary-color
+
+.post-date
+  color: $secondary-text-color
+
+.post-title
+  font-size: 2.3em
+
+.post-footer
+  text-align: center
+  margin: 100px
+
+  a
+    font-family: $title-font
+    color: $blog-color
+
+.home-page-link
+  display: inline
+  margin-right: 10px
+
 .flexcontainer
-  display: -webkit-flex
-  display: flex
   padding: 5%

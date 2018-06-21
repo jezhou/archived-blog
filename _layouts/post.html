@@ -3,10 +3,13 @@ layout: default
 ---
 
 <div class="post">
-  <a class="back-button" href={{ "/" | relative_link }}>
-    <h2>Back</h2>
-  </a>
-  <h1>{{ page.title }}</h1>
-  {{ page.date | date: date_format }}
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class='post-date'>
+    {{ page.date | date: '%B %e, %Y' }}
+  </p>
   {{ content }}
+
+  <div class="post-footer">
+    <h3><a href={{ "/" | relative_url }}>{{site.title}}</a></h3>
+  </div>
 </div>
