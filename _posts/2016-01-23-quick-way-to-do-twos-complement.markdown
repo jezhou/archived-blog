@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick way to do Two's Complement
-date: 1970-01-17 12:32:33.000000000 -08:00
+date: 2016-01-23
 ---
 This might be relatively simple to figure out by one's self, but this has definitely helped me save a lot of time on exams and I think it's worth explicitly writing about. So here it is!
 

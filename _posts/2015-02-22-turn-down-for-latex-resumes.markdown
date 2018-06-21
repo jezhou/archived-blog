@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Woot LaTeX Resumes!
-date: 1970-01-17 12:32:32.000000000 -08:00
+date: 2015-02-22
 ---
 Today was the Discipline of Engineering Career Fair (DECaF) at UCSD, and I was fortunate enough to go early and talk to recruiters about the stuff I've been doing recently. The line was atrociously long, but the whole experience ended up being pretty satisfactory for me because I spent a lot of time preparing before the fair started.
 

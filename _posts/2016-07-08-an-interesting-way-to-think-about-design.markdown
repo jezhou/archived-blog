@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An interesting way to think about design
-date: 1970-01-17 15:39:22.000000000 -08:00
+date: 2016-07-08
 ---
 A designer on my team at my internship told me this over dinner. I'm by no means a designer at all, but this example was an amazingly simple way to examine how good a certain design is.
 

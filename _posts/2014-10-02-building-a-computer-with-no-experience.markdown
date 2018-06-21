@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Computer with No Experience
-date: 1970-01-17 12:32:22.000000000 -08:00
+date: 2014-10-02
 ---
 This summer, I had the pleasure of building my first computer from scratch. Ain't she a beaut?
 
