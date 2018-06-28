@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Final thoughts on this election
-date: 1970-01-17 18:46:15.000000000 -08:00
+date: 2016-11-10
 ---
 I have some quick and final thoughts about this election cycle that I wanted to write down.
 

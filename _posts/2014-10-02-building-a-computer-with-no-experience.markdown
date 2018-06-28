@@ -5,7 +5,7 @@ date: 2014-10-02
 ---
 This summer, I had the pleasure of building my first computer from scratch. Ain't she a beaut?
 
-![My first computer build](/content/images/2016/11/10452836_10204484093332161_1568581510786781557_o.jpg)
+![Imgur](https://i.imgur.com/8iiLLfG.jpg)
 
 To be honest, when I first set my mind to do something like this, I wasn't exactly confident. The one time I actually tried to do something hardware related before this was replacing the RAM on my Macbook Pro, and that was a complete disaster. (Note to self: always research before you buy.) I was more or less afraid that the same thing would happen with this project as well, but on a much larger scale.
 
@@ -64,7 +64,7 @@ Thermal paste, by the way, is just a paste you apply to the CPU, which can then 
 
 If you do use fans, make sure your cable management is really good. Basically, you don't want a bunch of cables to get in the way of the fans blowing hot air out of your computer. Doing so will ensure that your computer runs on maximum efficiency, and it also makes upgrading your computer much easier later (it's never fun messing around with tangled cables or cords).
 
-![Airflow diagram.](/content/images/2016/11/af_maid.gif)
+![Imgur](https://i.imgur.com/HjAVvT9.gif)
 
 There is one alternative to cooling, but it's generally considered a hassle and only for the true hobbyists. If you're interested, look into [watercooling](http://www.reddit.com/r/watercooling/) and attempt it if you're brave enough. I wouldn't try it for my first build though: water cooling, although it looks cool and is ninja silent, can make things a bit more complicated if you don't know what you're doing. It also has the potential to link all of your pretty components, which isn't fun at all.
 

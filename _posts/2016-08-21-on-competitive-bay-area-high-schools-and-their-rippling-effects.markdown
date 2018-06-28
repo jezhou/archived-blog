@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On competitive Bay Area high schools and their rippling effects
-date: 1970-01-17 18:42:04.000000000 -08:00
+date: 2016-08-21
 ---
 *(Reproduced from [Medium](https://medium.com/@jezhou/on-growing-up-in-the-bay-area-and-its-rippling-effects-b3273b9e2534#.nts7m6rmo))*
 

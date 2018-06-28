@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Professional Craic Dealer
-date: 1970-01-17 19:02:18.000000000 -08:00
+date: 2016-11-14
 ---
 I visited Dublin this weekend and I have to say it's probably one of my favorite places in the world. The last time I visited Dublin, I was around 10 to 11 years old, so having the opportunity to come as an adult was insane.
 

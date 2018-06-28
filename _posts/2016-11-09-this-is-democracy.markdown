@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is democracy
-date: 1970-01-17 18:45:00.000000000 -08:00
+date: 2016-11-09
 ---
 Hillary Clinton lost. She was right there. She was almost the first female President of the United States. We were at the cusp of history.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interning at Gusto, and reflections on how I got here
-date: 1970-01-17 18:42:05.000000000 -08:00
+date: 2016-09-08 
 ---
 *(Reproduced from the [Gusto Engineering Blog](http://engineering.gusto.com/interning-at-gusto-and-reflections-on-how-i-got-here/))*
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: København
-date: 1970-01-17 18:42:13.000000000 -08:00
+date: 2016-10-31
 ---
 I had the pleasure of visiting my friend in Copenhagen last week. It was quite a weekend: lots of sites to see and people to meet!
 

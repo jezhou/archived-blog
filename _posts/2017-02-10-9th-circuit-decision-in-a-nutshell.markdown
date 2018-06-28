@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 9th Circuit Decision in a nutshell
-date: 1970-01-17 20:59:19.000000000 -08:00
+date: 2017-02-10
 ---
 *This is originally from a Facebook post I made, but I decided to shorten the original post (because people on FB have short attention spans) so here is the unabridged version of that post.*
 
